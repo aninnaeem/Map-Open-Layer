@@ -2,6 +2,9 @@
 <html class="no-js" lang="en">
 
     <head>
+		<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css">
         <!-- META DATA -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -146,12 +149,11 @@
 		
 
 			<a class="skiplink" href="#map">Go to map</a>
-			<div id="map" class="map" tabindex="0"></div>
+			<div id="map" class="map"></div>
 			<button id="zoom-out" style="">Zoom out</button>
 			<button id="zoom-in">Zoom in</button>
 			<!-- Pointer events polyfill for old browsers, see https://caniuse.com/#feat=pointer -->
-			<script src="https://cdn.jsdelivr.net/npm/elm-pep@1.0.6/dist/elm-pep.js"></script>
-			<script type="text/javascript" src="https://stamen-maps.a.ssl.fastly.net/js/tile.stamen.js?v1.3.0"></script>
+			
 			<script type="module" src="main.js"></script>
 
 
